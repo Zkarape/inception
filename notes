@@ -1,0 +1,11 @@
+/etc/hosts, is a system file used to map hostnames to IP addresses on a computer.
+
+certificates are for authentication and user validation
+
+to get https from http you should have a certificate
+
+Certificates provide a means of authentication and verification, whereas protocols outline the rules for data exchange.
+
+mkcert is a tool that can be used to create locally-trusted development certificates.  It automatically installs a local CA (Certificate Authority) in your system and generates certificates signed by that CA. These certificates are trusted by your local machine, making it easier to set up HTTPS in a development environment without dealing with warnings or errors related to self-signed certificates.
+
+The certificate is a crucial component of securing the communication between the web server and the user's browser. It ensures that the data exchanged between the two is encrypted and secure.
