@@ -9,3 +9,11 @@ Certificates provide a means of authentication and verification, whereas protoco
 mkcert is a tool that can be used to create locally-trusted development certificates.  It automatically installs a local CA (Certificate Authority) in your system and generates certificates signed by that CA. These certificates are trusted by your local machine, making it easier to set up HTTPS in a development environment without dealing with warnings or errors related to self-signed certificates.
 
 The certificate is a crucial component of securing the communication between the web server and the user's browser. It ensures that the data exchanged between the two is encrypted and secure.
+
+docker is lightweight vm
+
+container is instance of docker image (Dockerfile)
+
+
+Volumes are flexible and can be shared among multiple containers. This is useful when you have services that need access to the same data.
+
